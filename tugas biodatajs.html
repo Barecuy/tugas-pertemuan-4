@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Biodata js</title>
+    <style>
+        body{
+            color: white;
+            background-color: black;
+            font-family: monospace;
+            font-size: 30px;
+
+        }
+        h1{
+            color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Biodata</h1>
+    <div id="Number"></div>
+    <div id="string"></div>
+    <div id="number"></div>
+    <div id="array"></div>
+
+    <h2>Storyteling</h2>
+    <div id="object"></div>
+
+
+    <script>
+        var NIM =  15240313
+        var nama = "M. Akbar Ghozali"
+        var usia = 20
+        var hobi = ['musik ',' olahraga', ' main game' ] 
+
+        
+        var obj = { name : 'Akbar Ghozali', age : 20 }
+
+
+        document.getElementById("Number").innerHTML ="Nim : " + NIM;
+        document.getElementById("string").innerHTML ="Nama : " + nama;
+        document.getElementById("number").innerHTML ="usia : " + usia;
+        document.getElementById("array").innerHTML =" hobi : " + hobi;
+        document.getElementById("object").innerHTML ="Hallo perkenalkan nama saya " + obj.name + ", usia " + obj.age + ", saya suka bermain musik";
+        
+
+    </script>
+
+    
+</body>
+</html>
